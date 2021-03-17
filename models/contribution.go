@@ -10,3 +10,11 @@ type Contribution struct {
 	Date        string `json:"date"`
 	Amount      string `json:"amount"`
 }
+
+// Contributions ...
+type Contributions struct {
+	URI          string         `json:"uri"`
+	Total        string         `json:"total"`
+	Count        string         `json:"count"`
+	Contribution []Contribution `json:"contributions"`
+}
