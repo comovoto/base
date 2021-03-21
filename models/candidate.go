@@ -10,6 +10,7 @@ type Candidate struct {
 	Quota          string         `json:"quota"`
 	PoliticalParty string         `json:"political_party"`
 	ExtraInfo      string         `json:"extra_info"`
+	Motivation     string         `json:"motivation"`
 	Twitter        string         `json:"twitter"`
 	Facebook       string         `json:"facebook"`
 	Instagram      string         `json:"instagram"`
