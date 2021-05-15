@@ -25,4 +25,7 @@ type Candidate struct {
 	URL             string         `json:"url"`
 	Photo           string         `json:"photo"`
 	Contributions   []Contribution `json:"contributions"`
+	Votes           string         `json:"votes"`
+	Percentage      string         `json:"percentage"`
+	Elect           bool           `json:"elect"`
 }
