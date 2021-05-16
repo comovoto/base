@@ -28,4 +28,6 @@ type Candidate struct {
 	Votes           string         `json:"votes"`
 	Percentage      string         `json:"percentage"`
 	Elect           bool           `json:"elect"`
+	VotesList       string         `json:"votes_list"`
+	PercentageList  string         `json:"percentage_list"`
 }
